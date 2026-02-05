@@ -157,6 +157,7 @@ Built with:
 - [Fabric Loader](https://fabricmc.net/)
 - [Fabric API](https://github.com/FabricMC/fabric)
 - [Mixin](https://github.com/SpongePowered/Mixin)
+- Claude.ai (for code purposes)
 
 ---
 
