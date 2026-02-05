@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fakeping",
+  "version": "1.0.0",
+  "name": "FakePing",
+  "description": "Simulate network latency in singleplayer for PvP practice",
+  "authors": [
+    "Kanhaiya"
+  ],
+  "contact": {
+    "sources": "https://github.com/kshiti-ui/fakeping-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/fakeping/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.fakeping.FakePingMod"
+    ]
+  },
+  "mixins": [
+    "fakeping.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
